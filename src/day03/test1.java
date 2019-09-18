@@ -27,9 +27,18 @@ public class test1
         System.out.println(1 + 2 + 'a' + '1' + 1 + 2);
     }
 
+    public void work3()
+    {
+        char x = 'x';
+        int i = 10;
+        System.out.println(false ? i : x);
+        System.out.println(false ? 100 : x);
+        ;
+    }
+
     public static void main(String[] args)
     {
         test1 test1 = new test1();
-        test1.work2();
+        test1.work3();
     }
 }
